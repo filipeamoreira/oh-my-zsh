@@ -1,7 +1,7 @@
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 local user="%{$fg[red]%}%n@%{$fg[red]%}%m%{$reset_color%}"
 
-PROMPT='${user} : %{$fg[green]%}%c \
+PROMPT='${user} :: %{$fg[green]%}%c \
 $(git_prompt_info)\
 %{$fg[red]%}%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
