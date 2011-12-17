@@ -4,6 +4,8 @@ projects.zsh
 custom/*
 !custom/example
 !custom/example.zsh
+!custom/alias.zsh
+!custom/guto.zsh
+cache
 *.swp
 !custom/example.zshcache
-cache/
